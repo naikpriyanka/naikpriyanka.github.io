@@ -13,11 +13,11 @@
 
 .about-me {
     padding: 3%;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .about-me h2 {
-    margin-left: 10%;
+    /*margin-left: 10%;*/
 }
 
 .about-me p {
@@ -28,4 +28,34 @@
     padding: 3%;
     background-color: #1D2F3E;
     color: #D3D3D3;
+}
+
+.achievement {
+    padding: 3%;
+    background-color: #0F9FB4;
+    color: black;
+}
+
+.proficiency {
+    padding: 3%;
+    background-color: #0FB493;
+    color: black;
+}
+
+.projects {
+    padding: 3%;
+    /*text-align: center; #C9E1C1;*/
+    /*background-color: #f5f5f5;*/
+    color: black;
+}
+
+.education {
+    padding: 3%;
+    background-color: #152737;
+    color: #D3D3D3;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
 }
