@@ -1,6 +1,6 @@
 /*#home {*/
     /*background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(../images/images1.jpeg) no-repeat center center;*/
-    /*!*opacity: 0.1;*!*/
+    /*opacity: 0.1;*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
@@ -11,7 +11,12 @@
     /*z-index: 1;*/
 /*}*/
 
+/*.mynavbar {*/
+    /*background-color: #152737;*/
+/*}*/
+
 .about-me {
+    margin-top: -1.5%;
     padding: 3%;
     /*background-color: green;*/
 }
@@ -55,7 +60,45 @@
     color: #D3D3D3;
 }
 
+.more-info {
+    padding: 3%;
+    background-color: #C9E1C1;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
     margin: auto;
+}
+
+.progress {
+    height: 20px;
+    /*display: inline-block;*/
+}
+
+.progress .skill {
+    font: normal 12px "Open Sans Web";
+    line-height: 20px;
+    padding: 0;
+    /*margin: 0 0 0 20px;*/
+    text-transform: uppercase;
+}
+.progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+}
+
+.progress-bar {
+    text-align: left;
+    transition-duration: 3s;
+}
+
+.rating {
+    /*display: inline-block;*/
+}
+
+.star {
+    font-size:150%;
+    color:gold;
+    /*display: inline-block;*/
 }
