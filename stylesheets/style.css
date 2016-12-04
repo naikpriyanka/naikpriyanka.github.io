@@ -11,28 +11,119 @@
     /*z-index: 1;*/
 /*}*/
 
+#home i {
+    font-size:36px;
+    color: black;
+}
+
+#home i:hover {
+    color: gainsboro;
+}
+
+
 /*.mynavbar {*/
     /*background-color: #152737;*/
 /*}*/
 
+.profile-name {
+    /*font-family: 'Domine', serif;*/
+    font-family: 'Headland One', serif;
+    /*font-family: 'Belgrano', serif;*/
+}
+
+.profile-tagline {
+    font-family: 'Kotta One', serif;
+}
+
 .about-me {
+    font-family: 'ABeeZee', sans-serif;
+    /*font-family: 'Fira Sans', sans-serif;*/
     margin-top: -1.5%;
     padding: 3%;
     /*background-color: green;*/
 }
 
 .about-me h2 {
+    font-family: 'Sahitya', serif;
     /*margin-left: 10%;*/
 }
 
-.about-me p {
-    color: black;
+.year {
+    font-family: 'Karla', sans-serif;
 }
 
+
+/*font-family: 'Varela Round', sans-serif;*/
+/*font-family: 'PT Sans Caption', sans-serif;*/
+/*font-family: 'Domine', serif;*/
+/*font-family: 'Alegreya Sans', sans-serif;*/
+/*font-family: 'ABeeZee', sans-serif;*/
+/*font-family: 'Istok Web', sans-serif;*/
+/*font-family: 'Kreon', serif;*/
+/*font-family: 'Neuton', serif;*/
+/*font-family: 'Signika Negative', sans-serif;*/
+/*font-family: 'Scope One', serif;*/
+/*font-family: 'Marko One', serif;*/
+/*font-family: 'Jacques Francois', serif;*/
+/*font-family: 'Donegal One', serif;*/
+/*font-family: 'Cherry Swash', cursive;*/
+/*font-family: 'Headland One', serif;*/
+/*font-family: 'Cambo', serif;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Belgrano', serif;*/
+/*font-family: 'Kotta One', serif;*/
+/*font-family: 'Andika', sans-serif;*/
+/*font-family: 'Coustard', serif;*/
 .experience {
     padding: 3%;
     background-color: #1D2F3E;
     color: #D3D3D3;
+}
+
+.experience h3 {
+    /*font-family: 'Scope One', serif;*/
+    /*font-family: 'Marko One', serif;*/
+    font-family: 'Jacques Francois', serif;
+    /*font-family: 'Donegal One', serif;*/
+    /*font-family: 'Belgrano', serif;*/
+    /*font-family: 'Andika', sans-serif;*/
+}
+
+#cdk-project-work, .experience ul {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.experience h4 {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.experience h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
+}
+
+.education {
+    padding: 3%;
+    background-color: #152737;
+    color: #D3D3D3;
+}
+
+.education h3 {
+    /*font-family: 'Scope One', serif;*/
+    /*font-family: 'Marko One', serif;*/
+    /*font-family: 'Jacques Francois', serif;*/
+    /*font-family: 'Donegal One', serif;*/
+    /*font-family: 'Belgrano', serif;*/
+    font-family: 'Andika', sans-serif;
+}
+
+.education h4 {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.education h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
 }
 
 .achievement {
@@ -41,10 +132,18 @@
     color: black;
 }
 
-.proficiency {
-    padding: 3%;
-    background-color: #0FB493;
-    color: black;
+.achievement h4 {
+    /*font-family: 'Marko One', serif;*/
+    font-family: 'Andika', sans-serif;
+}
+
+.achievement h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
+}
+
+.achievement i {
+    font-size: 30px;
 }
 
 .projects {
@@ -54,15 +153,76 @@
     color: black;
 }
 
-.education {
+.projects h2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.projects img {
+    text-align: center;
+}
+
+.project-name {
+    text-align: center;
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: 'Marko One', serif;
+}
+
+#naik-electroman-project-name {
+    font-family: 'Marko One', serif;
+}
+
+.project-details {
+    text-align: justify;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    /*font-family: 'ABeeZee', sans-serif;*/
+    /*font-family: 'Istok Web', sans-serif;*/
+    /*font-family: 'Kreon', serif;*/
+    /*font-family: 'Neuton', serif;*/
+    /*font-family: 'Signika Negative', sans-serif;*/
+    /*font-family: 'Scope One', serif;*/
+
+    /*font-family: 'Donegal One', serif;*/
+    /*font-family: 'Cambo', serif;*/
+    /*font-family: 'Gabriela', serif;*/
+    /*font-family: 'Belgrano', serif;*/
+    /*font-family: 'Kotta One', serif;*/
+    font-family: 'Andika', sans-serif;
+}
+
+.projects h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
+}
+
+.proficiency {
     padding: 3%;
-    background-color: #152737;
-    color: #D3D3D3;
+    background-color: #0FB493;
+    color: black;
+}
+
+.proficiency p {
+    font-family: 'Gabriela', serif;
+    /*font-family: 'Belgrano', serif;*/
+}
+
+.proficiency h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
 }
 
 .more-info {
     padding: 3%;
     background-color: #C9E1C1;
+}
+
+.more-info h2 {
+    font-family: 'Sahitya', serif;
+    text-align: center;
+}
+
+.more-info p {
+    color: black;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -93,33 +253,8 @@
     transition-duration: 3s;
 }
 
-.rating {
-    /*display: inline-block;*/
-}
-
 .star {
-    font-size:150%;
-    color:gold;
+    font-size: 150%;
+    color: gold;
     /*display: inline-block;*/
-}
-
-.achievement i {
-    font-size: 30px;
-}
-
-.projects h2 {
-    text-align: center;
-    margin-bottom: 3%;
-}
-
-.project-name {
-    text-align: center;
-}
-
-.project-details {
-    text-align: justify;
-}
-
-.more-info h2 {
-    text-align: center;
 }
