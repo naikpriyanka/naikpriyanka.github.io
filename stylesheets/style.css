@@ -1,21 +1,24 @@
-/*#home {*/
-/*background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(../images/images1.jpeg) no-repeat center center;*/
+#home {
+background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(../images/images1.jpeg) no-repeat center center;
 /*opacity: 0.1;*/
-/*-webkit-background-size: cover;*/
-/*-moz-background-size: cover;*/
-/*-o-background-size: cover;*/
-/*background-size: cover;*/
-/*width: 100%;*/
-/*position: relative;*/
-/*background-position: 100%;*/
-/*z-index: 1;*/
-/*}*/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+position: relative;
+background-position: 100%;
+z-index: 1;
+}
 
 .page-header {
     margin-top: 40px;
     margin-bottom: 0;
+    opacity: 0.8;
 }
-
+.projectImg{
+    height : 100px;
+}
 #home i {
     font-size: 36px;
     color: black;
@@ -155,8 +158,8 @@
 .projects {
     padding: 3%;
     /*text-align: center; #C9E1C1;*/
-    /*background-color: #f5f5f5;*/
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .projects h2 {
@@ -172,6 +175,7 @@
     text-align: center;
     /*font-family: 'Varela Round', sans-serif;*/
     font-family: 'Marko One', serif;
+    padding: 10px;
 }
 
 #naik-electroman-project-name {
