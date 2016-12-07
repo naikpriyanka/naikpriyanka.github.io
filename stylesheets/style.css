@@ -1,14 +1,13 @@
 #home {
-background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(../images/images1.jpeg) no-repeat center center;
-/*opacity: 0.1;*/
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-width: 100%;
-position: relative;
-background-position: 100%;
-z-index: 1;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.6) 100%), url(../images/cover-pic.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-position: 100%;
+    z-index: 1;
 }
 
 .page-header {
@@ -16,6 +15,11 @@ z-index: 1;
     margin-bottom: 0;
     opacity: 0.8;
 }
+
+#profile-image {
+    border-radius: 138px;
+}
+
 .projectImg{
     height : 100px;
 }
@@ -26,6 +30,7 @@ z-index: 1;
 
 #home i:hover {
     color: gainsboro;
+    transition: color 0.3s ease;
 }
 
 /*.mynavbar {*/
@@ -33,9 +38,7 @@ z-index: 1;
 /*}*/
 
 .profile-name {
-    /*font-family: 'Domine', serif;*/
     font-family: 'Headland One', serif;
-    /*font-family: 'Belgrano', serif;*/
 }
 
 .profile-tagline {
@@ -44,7 +47,6 @@ z-index: 1;
 
 .about-me {
     font-family: 'ABeeZee', sans-serif;
-    /*font-family: 'Fira Sans', sans-serif;*/
     padding: 3%;
     /*background-color: green;*/
 }
@@ -62,27 +64,6 @@ z-index: 1;
     font-family: 'Karla', sans-serif;
 }
 
-/*font-family: 'Varela Round', sans-serif;*/
-/*font-family: 'PT Sans Caption', sans-serif;*/
-/*font-family: 'Domine', serif;*/
-/*font-family: 'Alegreya Sans', sans-serif;*/
-/*font-family: 'ABeeZee', sans-serif;*/
-/*font-family: 'Istok Web', sans-serif;*/
-/*font-family: 'Kreon', serif;*/
-/*font-family: 'Neuton', serif;*/
-/*font-family: 'Signika Negative', sans-serif;*/
-/*font-family: 'Scope One', serif;*/
-/*font-family: 'Marko One', serif;*/
-/*font-family: 'Jacques Francois', serif;*/
-/*font-family: 'Donegal One', serif;*/
-/*font-family: 'Cherry Swash', cursive;*/
-/*font-family: 'Headland One', serif;*/
-/*font-family: 'Cambo', serif;*/
-/*font-family: 'Gabriela', serif;*/
-/*font-family: 'Belgrano', serif;*/
-/*font-family: 'Kotta One', serif;*/
-/*font-family: 'Andika', sans-serif;*/
-/*font-family: 'Coustard', serif;*/
 .experience {
     padding: 3%;
     background-color: #1D2F3E;
@@ -90,12 +71,7 @@ z-index: 1;
 }
 
 .experience h3 {
-    /*font-family: 'Scope One', serif;*/
-    /*font-family: 'Marko One', serif;*/
-    font-family: 'Jacques Francois', serif;
-    /*font-family: 'Donegal One', serif;*/
-    /*font-family: 'Belgrano', serif;*/
-    /*font-family: 'Andika', sans-serif;*/
+    font-family: 'Andika', sans-serif;
 }
 
 #cdk-project-work, .experience ul {
@@ -118,11 +94,6 @@ z-index: 1;
 }
 
 .education h3 {
-    /*font-family: 'Scope One', serif;*/
-    /*font-family: 'Marko One', serif;*/
-    /*font-family: 'Jacques Francois', serif;*/
-    /*font-family: 'Donegal One', serif;*/
-    /*font-family: 'Belgrano', serif;*/
     font-family: 'Andika', sans-serif;
 }
 
@@ -142,13 +113,11 @@ z-index: 1;
 }
 
 .achievement h4 {
-    /*font-family: 'Marko One', serif;*/
     font-family: 'Andika', sans-serif;
 }
 
 .achievement h2 {
     font-family: 'Sahitya', serif;
-    /*margin-left: 10%;*/
 }
 
 .achievement i {
@@ -163,7 +132,7 @@ z-index: 1;
 }
 
 .projects h2 {
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 3%;
 }
 
@@ -173,7 +142,6 @@ z-index: 1;
 
 .project-name {
     text-align: center;
-    /*font-family: 'Varela Round', sans-serif;*/
     font-family: 'Marko One', serif;
     padding: 10px;
 }
@@ -184,19 +152,6 @@ z-index: 1;
 
 .project-details {
     text-align: justify;
-    /*font-family: 'Alegreya Sans', sans-serif;*/
-    /*font-family: 'ABeeZee', sans-serif;*/
-    /*font-family: 'Istok Web', sans-serif;*/
-    /*font-family: 'Kreon', serif;*/
-    /*font-family: 'Neuton', serif;*/
-    /*font-family: 'Signika Negative', sans-serif;*/
-    /*font-family: 'Scope One', serif;*/
-
-    /*font-family: 'Donegal One', serif;*/
-    /*font-family: 'Cambo', serif;*/
-    /*font-family: 'Gabriela', serif;*/
-    /*font-family: 'Belgrano', serif;*/
-    /*font-family: 'Kotta One', serif;*/
     font-family: 'Andika', sans-serif;
 }
 
@@ -212,8 +167,7 @@ z-index: 1;
 }
 
 .proficiency p {
-    font-family: 'Gabriela', serif;
-    /*font-family: 'Belgrano', serif;*/
+    font-family: 'ABeeZee', sans-serif;
 }
 
 .proficiency h2 {
@@ -228,7 +182,7 @@ z-index: 1;
 
 .more-info h2 {
     font-family: 'Sahitya', serif;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .more-info p {
@@ -240,32 +194,11 @@ z-index: 1;
     margin: auto;
 }
 
-.progress {
-    height: 20px;
-    /*display: inline-block;*/
-}
-
-.progress .skill {
-    font: normal 12px "Open Sans Web";
-    line-height: 20px;
-    padding: 0;
-    /*margin: 0 0 0 20px;*/
-    text-transform: uppercase;
-}
-
-.progress .skill .val {
-    float: right;
-    font-style: normal;
-    margin: 0 20px 0 0;
-}
-
-.progress-bar {
-    text-align: left;
-    transition-duration: 3s;
-}
-
 .star {
     font-size: 150%;
     color: gold;
-    /*display: inline-block;*/
+}
+
+.projects .col-lg-4 {
+    margin : 3%;
 }
