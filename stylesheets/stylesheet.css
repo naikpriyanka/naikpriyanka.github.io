@@ -49,12 +49,49 @@ a:hover {
   .btn {
     padding: 0.75rem 1rem;
   }
+  .page-header {
+    padding: 5rem 6rem;
+  }
+  .profile-name {
+    font-size: 5rem;
+  }
+  .profile-tagline {
+    font-size: 2.75rem;
+  }
+  .main-content {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+  .site-footer {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem;
+  }
+  .page-header {
+    padding: 3rem 4rem;
+  }
+  .profile-name {
+    font-size: 4rem;
+  }
+  .profile-tagline {
+    font-size: 2.40rem;
+  }
+  .main-content {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+  .site-footer {
+    font-size: 1rem;
+  }
+  #cdk-global-icon {
+
   }
 }
 
@@ -69,6 +106,22 @@ a:hover {
       margin-top: 1rem;
       margin-left: 0;
   }
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  .profile-name {
+    font-size: 3rem;
+  }
+  .profile-tagline {
+    font-size: 2rem;
+  }
+  .main-content {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+  .site-footer {
+    font-size: 0.9rem;
+  }
 }
 
 .page-header {
@@ -79,68 +132,14 @@ a:hover {
   margin-top: 3%;
 }
 
-@media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem;
-  }
-}
-
 .profile-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
 }
 
-@media screen and (min-width: 64em) {
-  .profile-name {
-    font-size: 5rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .profile-name {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .profile-name {
-    font-size: 3rem;
-  }
-}
-
 .profile-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-}
-
-@media screen and (min-width: 64em) {
-  .profile-tagline {
-    font-size: 2.75rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .profile-tagline {
-    font-size: 2.40rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .profile-tagline {
-    font-size: 2rem;
-  }
 }
 
 .main-content :first-child {
@@ -287,29 +286,6 @@ a:hover {
   border: 0;
 }
 
-@media screen and (min-width: 64em) {
-  .main-content {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .main-content {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .main-content {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
-}
-
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
@@ -323,22 +299,4 @@ a:hover {
 
 .site-footer-credits {
   color: #819198;
-}
-
-@media screen and (min-width: 64em) {
-  .site-footer {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .site-footer {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .site-footer {
-    font-size: 0.9rem;
-  }
 }
