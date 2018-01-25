@@ -12,8 +12,8 @@
     <script type="text/javascript" src="js/script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 </head>
 <body>
 <section id="home">
@@ -33,6 +33,9 @@
         &nbsp;&nbsp;&nbsp;
         <a target="_blank" href="http://www.facebook.com/priyanka.naik26"><i class="fa fa-facebook-square"
                                                                              aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a target="_blank" href="docs/Priyanka_Manoj_Naik_Resume.pdf"><i class="fa fa-file-pdf-o"
+                                                                         aria-hidden="true"></i></a>
     </div>
 </section>
 
@@ -42,7 +45,6 @@
             <h2>About Me</h2>
         </div>
         <div class="col-lg-9">
-            <p>
             <h4>
                 I design and develop application, primarily working on Java, J2EE.
                 I have extensive experience in developing web applications using HTML, CSS, AngularJs and NodeJs,
@@ -51,7 +53,6 @@
                 Along with programming, painting, drawing, exploring new places and listening to music are key parts
                 of my free time.
             </h4>
-            </p>
         </div>
     </div>
 </section>
@@ -60,29 +61,80 @@
         <div class="col-lg-3">
             <h2>Experience</h2>
         </div>
+        <div class="col-lg-9">
+            <div class="row">
         <div class="col-lg-2">
             <img src="images/cdkglobal.png" id="cdk-global-icon"/>
         </div>
-        <div class="col-lg-7">
-            <h4>
-                <p>
-                <h3>CDK Global (Formerly ADP Dealer Services)</h3>
-                <h5 class="year">Aug 2015 - Present</h5>
-                <h4>Serving dealership management in North America by providing offers to dealers</h4>
-                <h4 id="cdk-project-work">Project work includes :</h4>
-                <ul>
-                    <li>Working on offer loaders and parser to load data from third party offer providers, involving use
-                        of Spring Batch framework.
-                    </li>
-                    <li>Developed Mail Utility Library, a pluggable library to send mail alerts whenever a loader and
-                        parser runs.
-                    </li>
-                    <li>Architected Offer Loader Dashboard to run offer loaders and monitor logs, status and statistics
-                        of the process run.
-                    </li>
-                </ul>
-                </p>
-            </h4>
+        <div class="col-lg-9" style="text-align: justify">
+            <h3>CDK Global (Formerly ADP Dealer Services)</h3>
+            <h5 class="year">Aug 2015 - Aug 2017</h5>
+            <h4>North American Automobile Dealership Management</h4>
+            <ul>
+                <li>Worked in an Agile ecosystem as a part of Incentives (Offer Service) team and served more than
+                    27,000 dealers with offers on vehicles.
+                </li>
+                <div>
+                    <li><b><i class="proj_title">Offer Loader Dashboard:</i></b></li>
+                    <ul>
+                        <li>Architected Offer Loader Dashboard to run offer loader & parsers and monitor logs,
+                            status,
+                            summary, and statistics. It was hackathon idea taken to production.
+                        </li>
+                        <li>The work of monitoring logs was automated with great user experience and ease of
+                            understanding and use.
+                        </li>
+                        <li>The developers’ and testers’ time was saved up to 90%.</li>
+                        <li><i class="tool_tech">Technology and Tools:</i> HTML5, CSS3, JQuery, Javascript,
+                            Handlebars.js, Docker, Spring Batch,
+                            Spring Batch Database, SQL Developer, Node.js
+                        </li>
+                    </ul>
+                    <li><b><i class="proj_title">Mail Utility:</i></b></li>
+                    <ul>
+                        <li>Developed Mail Utility – a pluggable library to send email alerts whenever an offer
+                            loader
+                            or parser runs in CDK’s system.
+                        </li>
+                        <li>It was used by all (10+) parsers in the system.</li>
+                        <li><i class="tool_tech">Technology and Tools:</i> Java, Velocity Template</li>
+                    </ul>
+                    <li><b><i class="proj_title">IOM Offer Parser - Version 1 & Version 2 (Best Deal):</i></b></li>
+                    <ul>
+                        <li>The data from third-party offer provider of GM (biggest OEM) – IOM, was parsed and
+                            loaded as
+                            offers in CDK's system.
+                        </li>
+                        <li><i class="tool_tech">Technology and Tools:</i> Java, Spring Batch, SOAP, JSON, Postman,
+                            SoapUI, Perforce
+                        </li>
+                    </ul>
+                    <li><b><i class="proj_title">VIN based Development Module:</i></b></li>
+                    <ul>
+                        <li>Purpose was to attach offer to the vehicles when vehicle identifier is given.</li>
+                        <li>Handled intensive data of 52000+ VINs per offer. i.e. ~10L vehicles.</li>
+                        <li>Successfully released to over 8000 dealers in the first attempt</li>
+                        <li><i class="tool_tech">Technology and Tools:</i> Java, Spring Batch, JSON</li>
+                    </ul>
+                    <li><b><i class="proj_title">Generic Offer Loader:</i></b></li>
+                    <ul>
+                        <li>Integrated offer data from multiple partners.</li>
+                        <li>Partners deliver their files conforming to a certain XML format specification and a
+                            scheduled
+                            process picks up the file and ingest them into the CDK’s platform
+                        </li>
+                        <li><i class="tool_tech">Technology and Tools:</i> XSD Schema, Spring Batch</li>
+                    </ul>
+                    <li><b><i class="proj_title">Offer Service:</i></b></li>
+                    <ul>
+                        <li>Highly Scalable service to load offers from the parsers and view on the websites</li>
+                        <li>Formed the core services needed for displaying offers on vehicle inventory</li>
+                        <li><i class="tool_tech">Technology and Tools:</i> Java, RESTful APIs, Spring Remoting</li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+            </div>
         </div>
     </div>
 </section>
@@ -92,20 +144,49 @@
             <h2>Education</h2>
         </div>
         <div class="col-lg-9">
-            <div>
-                <p><h3>Bachelor of Engineering - Information Technology</h3></p>
-                <p><h5 class="year">July 2011 - June 2015</h5></p>
-                <p><h4>Pune Institute of Computer Technology, Pune</h4></p>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/ub-icon.png" id="ub-icon"/>
+                </div>
+                <div class="col-lg-7">
+                    <h3>Master of Computer Science & Engineering</h3>
+                    <h5 class="year">Aug 2017 - Present</h5>
+                    <h4>University at Buffalo (State University of New York)</h4>
+                    <h4>GPA : 3.585 / 4.00</h4>
+                </div>
             </div>
-            <div>
-                <p><h3>Higher Secondary Education - Science</h3></p>
-                <p><h5 class="year">July 2009 - June 2011</h5></p>
-                <p><h4>Nutan Marathi Vidyalaya and Junior College, Pune</h4></p>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/pict-icon.png" id="pict-icon"/>
+                </div>
+                <div class="col-lg-7">
+                    <h3>Bachelor of Engineering - Information Technology</h3>
+                    <h5 class="year">July 2011 - June 2015</h5>
+                    <h4>Pune Institute of Computer Technology, Pune</h4>
+                    <h4>GPA : 3.67 / 4.00</h4>
+                </div>
             </div>
-            <div>
-                <p><h3>Primary & Secondary Education</h3></p>
-                <p><h5 class="year">June 1999 - June 2009</h5></p>
-                <p><h4>Vidya Niketan English Medium School, Pune</h4></p>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/university-icon.png" class="university-icon"/>
+                </div>
+                <div class="col-lg-7">
+                    <h3>Higher Secondary Education - Science</h3>
+                    <h5 class="year">July 2009 - June 2011</h5>
+                    <h4>Nutan Marathi Vidyalaya and Junior College, Pune</h4>
+                    <h4>GPA : 93.33%</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="images/university-icon.png" class="university-icon"/>
+                </div>
+                <div class="col-lg-7">
+                    <h3>Primary & Secondary Education</h3>
+                    <h5 class="year">June 1999 - June 2009</h5>
+                    <h4>Vidya Niketan English Medium School, Pune</h4>
+                    <h4>GPA : 91.69%</h4>
+                </div>
             </div>
         </div>
     </div>
@@ -118,162 +199,179 @@
         <div class="col-lg-9">
             <h4>
                 <div class="row">
-                    <div class="col-lg-1">
-                        <p>Java</p>
-                    </div>
+                    <div class="col-lg-1">Java</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <p>Spring Batch Framework</p>
-                    </div>
+                    <div class="col-lg-3">Spring Batch Framework</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-1">
-                        <p>HTML</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Angular JS</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-1">
-                        <p>C++</p>
-                    </div>
+                    <div class="col-lg-1">HTML</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <p>Javascript</p>
+                    <div class="col-lg-3">Angular JS
                     </div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-1">
-                        <p>C</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Node Js</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-1">
-                        <p>SQL</p>
-                    </div>
+                    <div class="col-lg-1">C++</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <p>MySQL</p>
-                    </div>
+                    <div class="col-lg-3">Javascript</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                </div>
-				<div class="row">
-                    <div class="col-lg-1">
-                        <p>Docker</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <p>Bootstrap</p>
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-1">
-                        <p>Perforce</p>
-                    </div>
+                    <div class="col-lg-1">C</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <p>Github</p>
-                    </div>
+                    <div class="col-lg-3">Node JS</div>
                     <div class="col-lg-3">
                         <div>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
-                            <span class="star">&starf;</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1">SQL</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">MySQL</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1">Docker</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">Bootstrap</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1">Perforce</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">Github</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-1">CSS</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">Android</div>
+                    <div class="col-lg-3">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
                         </div>
                     </div>
                 </div>
@@ -291,39 +389,47 @@
                 <div class="col-lg-4">
                     <img src="images/todolist.png" class="img-responsive center-block projectImg">
                     <p class="project-name">Todo App</p>
-                    <p class="project-details">Platform for managing daily tasks, marking them done and alerting
-                        pending tasks</p>
+                    <p class="project-details">Platform for managing daily tasks, marking them done and alerting pending
+                        tasks. The static website which previously used HTML and CSS for development was then enhanced
+                        to create dynamic pages to improve user experience using AngularJs and Node.js (MEAN stack).</p>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4">
                     <img src="images/process-migration.png" class="img-responsive center-block projectImg">
                     <p class="project-name">Process Migration in Virtualized Environment</p>
-                    <p class="project-details">Application to transfer process from overloaded machine or machine
-                        under maintenance, to
-                        available virtual machine without computing power loss and unavailability of
-                        resources.</p>
+                    <p class="project-details text show-more-height">Driven by the working of the processes, its
+                        internals and the growing world of virtualization, I implemented a project named ‘Process
+                        Migration in Virtualized Environment’. It provided a different dimension to my knowledge. The
+                        aim of this project was to alleviate the load on the primary virtual machine when the machine is
+                        overloaded or under maintenance. The demonstration of this project included migration of
+                        priority processes to available virtual machines without the unavailability of resources and
+                        computing power loss. Virt-IO serial, a vm-channel was used for transfer of data from the host
+                        machine to guest machine.
+                        <br><i class="tool_tech">Technology and Tools:</i> C, Virt IO serial, kernel version 2.10.x
+                    </p>
+                    <div class="show-more">Show More</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4">
                     <img src="images/blog-pic.jpg" class="img-responsive center-block projectImg">
                     <p class="project-name">Blog It</p>
-                    <p class="project-details">Platform to share experiences, thoughts and ideas, in turn bringing
-                        together</p>
+                    <p class="project-details">This project is web application where the blogger can write micro – blogs
+                        of not more than 140 characters. The blogger could even make friends, view his friends list as
+                        well as friend suggestion. Through “BlogIt”, users could share their experiences, thoughts and
+                        ideas, thus connecting them together. We architected this platform based on the client – server
+                        architecture using HTML, CSS, JSP, Javascript, Servlet and MySQL.</p>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-4">
                     <img src="images/chain-reaction.jpeg" class="img-responsive center-block projectImg">
                     <p class="project-name">Chain Reaction</p>
-                    <p class="project-details text show-more-height">A strategy game for 2 to 8 players. The objective
-                        of Chain Reaction
-                        is to take control of the
-                        board by eliminating your opponents' orbs. Players take it in turns to place their orbs in a
-                        cell. Once a cell has reached critical mass the orbs explode into the surrounding cells
-                        adding an extra orb and claiming the cell for the player. A player may only place their orbs
-                        in a blank cell or a cell that contains orbs of their own colour. As soon as a player looses
-                        all their orbs they are out of the game.</p>
-                    <div class="show-more">Show More</div>
+                    <p class="project-details">A strategy game for 2 to 8 players. The objective
+                        of Chain Reaction is to take control of the board by eliminating your opponents' orbs. Players
+                        take it in turns to place their orbs in a cell. Once a cell has reached critical mass the orbs
+                        explode into the surrounding cells adding an extra orb and claiming the cell for the player. A
+                        player may only place their orbs in a blank cell or a cell that contains orbs of their own
+                        colour. As soon as a player looses all their orbs they are out of the game.</p>
                 </div>
             </div>
             <div class="row text-project show-more-height-projects naik-electroman-project">
@@ -372,10 +478,8 @@
                 <div class="col-lg-4">
                     <p id="naik-electroman-project-name">Naik Electroman Systems Project</p>
                     <p class="project-details">A system to manage the sites’ work progress and inventory for an
-                        electrical
-                        installations
-                        company,
-                        Naik Electroman Systems Pvt. Ltd.</p>
+                        electrical installations company, Naik Electroman Systems Pvt. Ltd. The software consisted of
+                        Project Management and Employee Database Management System.</p>
                 </div>
             </div>
             <div class="row show-more-projects">View More Projects
@@ -412,19 +516,19 @@
         </div>
     </div>
 </section>
-<section class="more-info">
+<section class="volunteer">
     <div class="row">
         <div class="col-lg-3">
-            <h2>More Info</h2>
+            <h2>Leadership / Volunteer Activities</h2>
         </div>
-        <div class="col-lg-4">
-            <div class="btn" onclick="window.open('docs/MeetPriyankaNaik.pdf')">
-                More Details
-            </div>
-        </div>
-        <div class="col-lg-3"></div>
-        <div class="col-lg-4">
-            <div class="btn" onclick="window.open('docs/Priyanka_Naik_Resume.pdf')">Resume</div>
+        <div class="col-lg-9">
+            <h3>Head of Pratibha (Paper Presentation Competition)</h3>
+            <h4>PICT Impetus and Concepts</h4>
+            <h5 class="year">Jan 2014 – Mar 2014</h5>
+            <h4>
+            Pratibha, a paper presentation competition is a part of Impetus and Concepts, a technical event organized by
+            Pune Institute of Computer Technology (PICT). I was the head of the event wherein I learnt more of time
+            management, to make most of the resources, planning, delegation, decision-making, etc.</h4>
         </div>
     </div>
 </section>

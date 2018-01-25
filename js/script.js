@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $(".show-more").click(function () {
-        if($(".text").hasClass("show-more-height")) {
+        if ($(".text").hasClass("show-more-height")) {
             $(this).text("Show Less");
         } else {
             $(this).text("Show More");
@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $(".naik-electroman-project").hide();
     $(".show-more-projects").click(function () {
-        if($(".text-project").hasClass("show-more-height-projects")) {
+        if ($(".text-project").hasClass("show-more-height-projects")) {
             $(this).text("View Less");
             $(".naik-electroman-project").show();
         } else {

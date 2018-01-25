@@ -6,7 +6,6 @@
     background-size: cover;
     width: 100%;
     position: relative;
-    background-position: 100%;
     z-index: 1;
 }
 
@@ -32,10 +31,6 @@
     color: gainsboro;
     transition: color 0.3s ease;
 }
-
-/*.mynavbar {*/
-/*background-color: #152737;*/
-/*}*/
 
 .profile-name {
     font-family: 'Headland One', serif;
@@ -120,9 +115,27 @@
     font-size: 30px;
 }
 
+.volunteer {
+    padding: 3%;
+    background-color: #C9E1C1;
+    color: black;
+}
+
+.volunteer h3 {
+    font-family: 'Andika', sans-serif;
+}
+
+.volunteer h4 {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.volunteer h2 {
+    font-family: 'Sahitya', serif;
+    /*margin-left: 10%;*/
+}
+
 .projects {
     padding: 3%;
-    /*text-align: center; #C9E1C1;*/
     background-color: black;
     color: white;
 }
@@ -164,9 +177,6 @@
     padding: 3%;
     background-color: #0FB493;
     color: black;
-}
-
-.proficiency p {
     font-family: 'ABeeZee', sans-serif;
 }
 
@@ -175,26 +185,12 @@
     /*margin-left: 10%;*/
 }
 
-.more-info {
-    padding: 3%;
-    background-color: #C9E1C1;
-}
-
-.more-info h2 {
-    font-family: 'Sahitya', serif;
-    /*text-align: center;*/
-}
-
-.more-info p {
-    color: black;
-}
-
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100%;
     margin: auto;
 }
 
-.star {
+.checked {
     font-size: 100%;
     color: gold;
 }
@@ -210,7 +206,7 @@
 }
 
 .show-more-height {
-    height: 62px;
+    height: 110px;
     overflow:hidden;
 }
 
@@ -226,11 +222,37 @@
 }
 
 #cdk-global-icon {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     padding-top: 30%;
 }
 
 .show-more-projects {
     text-align: center;
+}
+
+.university-icon {
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+.tool_tech, .proj_title {
+    color: #FFF8E1;
+}
+
+.proficiency .row .row {
+    margin: 10px;
+}
+
+#ub-icon {
+    width: 115px;
+    height: 110px;
+    margin-top: 15%;
+}
+
+#pict-icon {
+    width: 80%;
+    height: 80%;
+    padding-top: 10%;
 }
